@@ -1,0 +1,87 @@
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    background-color: #F5F5F6;
+    height:100vh;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.tarjeta-contenedor{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom : 8px;
+    background-color:#debfbf;
+    border-radius: 8px; 
+    width:20vw;
+    margin-top:40px;
+}
+
+.descuento-75-off{
+    display:flex;
+    margin-right: 10px;
+    align-self: flex-end;
+    color:#673DE6;  
+    background-color: #ccc6f2;
+    border-radius:10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.info-plan{
+    margin-right: 30px;
+    align-self: flex-start;
+    padding: 20px;
+}
+
+.seccion-precios{
+    display:flex;
+    flex-direction:column;
+    padding: 30px;
+}
+
+.precio-original{
+    align-self: flex-start;
+    text-decoration: line-through;
+    font-size: 0.8em;
+}
+
+.precio-actual{
+    align-self: flex-start;
+}
+.monto{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.chosse-plan{
+    
+    text-align:center;
+    padding: 5px 5px;
+    color: rgb(24, 3, 28);
+    border-radius:8px;
+    border: 1px solid #ad10d4;
+    text-decoration: none;
+}
+.info_plan{
+    display:flex;
+    flex-direction: colum;
+    padding:10px;
+    color: hsl(0, 2%, 45%);
+ 
+} 
+
+.precio-promocion{
+    font-weight: bold;
+    color: hsl(0,2%,45%);
+
+}
